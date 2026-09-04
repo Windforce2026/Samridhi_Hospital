@@ -16,11 +16,11 @@ if(form){form.onsubmit=e=>{
 const specData=[
 {name:"Critical Care & Emergency Medicine",icon:"🚨",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80"},
 {name:"Neurology & Brain & Spine Surgery",icon:"🧠",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=1200&q=80"},
-{name:"Gastroenterology & Digestive Health",icon:"🫁",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1516069677018-378515003435?auto=format&fit=crop&w=1200&q=80"},
+{name:"Gastroenterology & Digestive Health",icon:'<img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=80&q=80" alt="Gastroenterology" style="width:100%;height:100%;object-fit:cover;border-radius:12px">',desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1516069677018-378515003435?auto=format&fit=crop&w=1200&q=80"},
 {name:"Obstetrics, Gynaecology & Mother Care",icon:"🤱",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=1200&q=80"},
 {name:"Dentistry & Oral & Maxillofacial Surgery",icon:"🦷",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80"},
 {name:"Cardiology & CTVS",icon:"❤️",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=1200&q=80"},
-{name:"ENT, Head & Neck Surgery",icon:"👂",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=1200&q=80"},
+{name:"ENT, Head & Neck Surgery",icon:'<img src="https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?auto=format&fit=crop&w=80&q=80" alt="ENT" style="width:100%;height:100%;object-fit:cover;border-radius:12px">',desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?auto=format&fit=crop&w=1200&q=80"},
 {name:"Orthopaedics & Trauma Surgery",icon:"🦴",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1200&q=80"},
 {name:"Plastic & Reconstructive Surgery",icon:"✨",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=1200&q=80"},
 {name:"Pulmonology & Respiratory Care",icon:"🫁",desc:"Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.",img:"https://images.unsplash.com/photo-1623150502742-55127f8d5b66?auto=format&fit=crop&w=1200&q=80"},
@@ -119,8 +119,10 @@ const doctorData=[
 ];
 var deptIcon={
 "Medicine & Critical Care":"🚨","Pulmonology":"🫁","Neuro Surgery":"🧠","General Surgery":"🩺",
-"ENT":"👂","Plastic & Reconstructive Surgery":"✨","Nephrology":"🫘","Urology":"🫘",
-"Cardiology":"❤️","Dermatology":"🧴","Orthopaedics":"🦴","Gastroenterology":"🫁",
+"ENT":'<img src="https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?auto=format&fit=crop&w=80&q=80" alt="ENT" style="width:100%;height:100%;object-fit:cover;border-radius:12px">',
+"Plastic & Reconstructive Surgery":"✨","Nephrology":"🫘","Urology":"🫘",
+"Cardiology":"❤️","Dermatology":"🧴","Orthopaedics":"🦴",
+"Gastroenterology":'<img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=80&q=80" alt="Gastroenterology" style="width:100%;height:100%;object-fit:cover;border-radius:12px">',
 "Obstetrics & Gynaecology":"🤱","Psychiatry":"💚","Oral & Maxillofacial Surgery":"🦷",
 "Oncology":"💊","Paediatrics":"👶","Dentistry":"🦷"};
 var deptImage={
@@ -128,14 +130,14 @@ var deptImage={
 "Pulmonology":"https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=980&q=80",
 "Neuro Surgery":"https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=980&q=80",
 "General Surgery":"https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=980&q=80",
-"ENT":"https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&w=980&q=80",
+"ENT":"https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?auto=format&fit=crop&w=980&q=80",
 "Plastic & Reconstructive Surgery":"https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=980&q=80",
 "Nephrology":"https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=980&q=80",
 "Urology":"https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=980&q=80",
 "Cardiology":"https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=980&q=80",
 "Dermatology":"https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=980&q=80",
 "Orthopaedics":"https://images.unsplash.com/photo-1516069677018-378515003435?auto=format&fit=crop&w=980&q=80",
-"Gastroenterology":"https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=980&q=80",
+"Gastroenterology":"https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=980&q=80",
 "Obstetrics & Gynaecology":"https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=980&q=80",
 "Psychiatry":"https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=980&q=80",
 "Oral & Maxillofacial Surgery":"https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=980&q=80",
@@ -150,7 +152,7 @@ function buildDocCard(d,idx){
   var img=deptImage[d.d]||deptImage["Medicine & Critical Care"];
   return '<button type="button" class="doc-card-item" data-idx="'+idx+'" style="background-image:url(\''+img+'\')">'+
     '<span class="doc-card-shade" aria-hidden="true"></span>'+
-    '<span class="doc-card-icon" aria-hidden="true"><span>'+(deptIcon[d.d]||'🩺')+'</span></span>'+
+    '<span class="doc-card-icon" aria-hidden="true"><span>'+(deptIcon[d.d]||'<img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=80&q=80" alt="Doctor" style="width:100%;height:100%;object-fit:cover;border-radius:12px">')+'</span></span>'+
     '<span class="doc-card-name">'+d.n+'</span>'+
     '<span class="doc-card-dept">'+d.d+'</span>'+
     '<span class="doc-card-arrow" aria-hidden="true">→</span>'+
@@ -171,7 +173,7 @@ function openDoc(idx){
   docModalName.textContent=d.n;
   docModalDept.textContent=d.d.toUpperCase();
   docModalQual.innerHTML=d.q.map(function(q){return '<span class="dq">'+q+'</span>';}).join('');
-  docModalIcon.textContent=deptIcon[d.d]||'🩺';
+  docModalIcon.innerHTML=deptIcon[d.d]||'<img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=80&q=80" alt="Doctor" style="width:100%;height:100%;object-fit:cover;border-radius:12px">';
   docModalImg.src=deptImage[d.d]||deptImage["Medicine & Critical Care"];
   docModalImg.alt=d.n;
   docModal.hidden=false;
