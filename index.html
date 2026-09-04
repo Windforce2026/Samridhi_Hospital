@@ -1,15 +1,225 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samridhi Multi Speciality Hospital</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js" defer></script>
-</head>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Samridhi Multi Speciality Hospital | Your Health, Our Priority</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
-</html>
+<div class="top">✚ 24/7 Emergency Care <span>📞 <a href="tel:+917478066817">+91 74780 66817</a> &nbsp; 📞 <a href="tel:+918016048838">+91 80160 48838</a> &nbsp; ✉ info@samridhihospital.com</span></div>
+<header><a class="logo" href="#home"><img src="Samridhi_logo.jpeg" alt="Samridhi Hospital Logo" style="width:48px;height:48px;border-radius:50%;object-fit:cover"><span>Samridhi <i>Multi</i><small>Speciality Hospital</small></span></a><nav id="nav"><a href="#home">🏠 Home</a><a href="#about">ℹ️ About</a><a href="#specialties">🩺 Specialties</a><a href="#doctors">👨‍⚕️ Doctors</a><a href="#diagnostics">🔬 Diagnostics</a><a href="#facilities">🏥 Facilities</a><a href="#contact">📞 Contact</a></nav><div><button id="menu">☰</button><a class="book" href="#appointment">Book Appointment</a></div></header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span><span class="blob blob-4"></span></div>
+  <div class="hero-left">
+    <p class="eyebrow hero-eyebrow">Advanced Multispeciality Care</p>
+    <h1>Advanced Healthcare.<br><span>Compassionate Care.</span></h1>
+    <p class="lead hero-lead">Comprehensive medical care, advanced technology and experienced professionals — all under one roof.</p>
+    <div class="hero-ctas">
+      <a class="cta-primary" href="#appointment">Book an Appointment →</a>
+      <a class="cta-secondary" href="#specialties">Explore Our Specialties</a>
+    </div>
+    <div class="hero-trust">
+      <span>✦ 24×7 Emergency &amp; Critical Care</span>
+      <span>✦ 30-Bedded Multispeciality Hospital</span>
+    </div>
+    <a class="hero-emergency" href="tel:+917478066817">
+      <span class="hero-emergency-icon">☎</span>
+      <span><small>24×7 Emergency</small><b><a href="tel:+917478066817">74780 66817</a>  |  <a href="tel:+918016048838">80160 48838</a></b></span>
+    </a>
+  </div>
+  <div class="hero-right">
+    <div class="hero-visual">
+      <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1200&q=85" alt="Advanced multispeciality care">
+    </div>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="about-visual">
+    <div class="about-glass" aria-hidden="true"></div>
+    <div class="about-img"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=85" alt="Samridhi Hospital medical team"></div>
+    <div class="about-card"><b>30</b><span>Bedded Multispeciality Hospital</span></div>
+  </div>
+  <div class="about-content">
+    <div class="about-head">
+      <div>
+        <p class="eyebrow about-eyebrow">About Samridhi</p>
+        <h2>Healthcare Built Around<br><span>You.</span></h2>
+      </div>
+      <div class="about-badge">
+        <span class="about-badge-text"><b>Ayushman Bharat</b><small>Empanelled Hospital</small></span>
+      </div>
+    </div>
+    <p class="about-lead">Samridhi Neuro &amp; ENT Multispeciality Hospital is a 30-bedded facility offering comprehensive medical services under one roof.</p>
+    <p class="about-sub">With experienced medical professionals, state-of-the-art technology and dedicated emergency care, we are committed to delivering reliable, compassionate healthcare for every patient.</p>
+    <p class="about-trustline" role="note">An Ayushman Bharat empanelled hospital, providing accessible healthcare alongside advanced multispeciality services.</p>
+    <div class="about-features">
+      <div class="about-feature">
+        <b>01</b>
+        <div><h3>Multispeciality Expertise</h3><p>Comprehensive medical care across multiple specialties.</p></div>
+      </div>
+      <div class="about-feature">
+        <b>02</b>
+        <div><h3>State-of-the-Art Technology</h3><p>Advanced facilities supporting accurate diagnosis and treatment.</p></div>
+      </div>
+      <div class="about-feature">
+        <b>03</b>
+        <div><h3>24×7 Emergency &amp; Critical Care</h3><p>Swift response and dedicated emergency support when it matters most.</p></div>
+      </div>
+    </div>
+    <a class="about-link" href="#specialties">Discover Our Hospital →</a>
+  </div>
+</section>
+<section class="specialties" id="specialties">
+  <div class="spec-intro">
+    <p class="eyebrow spec-eyebrow">Our Specialties</p>
+    <h2>Expertise Across<br><span>Every Stage of Care.</span></h2>
+    <p class="spec-intro-text">Comprehensive multispeciality expertise, experienced medical professionals and advanced healthcare services — all under one roof. Select a specialty to learn more.</p>
+  </div>
+
+  <div class="spec-grid" id="specGrid"></div>
+
+  <div class="spec-trust">
+    <span><b>30-Bedded</b> Multispeciality Hospital</span>
+    <span><b>Experienced</b> Medical Professionals</span>
+    <span><b>State-of-the-Art</b> Technology</span>
+    <span><b>24×7</b> Emergency &amp; Critical Care</span>
+  </div>
+</section>
+
+<div class="spec-modal" id="specModal" role="dialog" aria-modal="true" hidden>
+  <div class="spec-modal-backdrop" data-close></div>
+  <div class="spec-modal-card">
+    <button class="spec-modal-close" data-close aria-label="Close">×</button>
+    <div class="spec-modal-visual">
+      <div class="spec-modal-icon" id="modalIcon"></div>
+      <img id="modalImg" src="" alt="">
+      <div class="spec-overlay"><span>◆</span> Experienced Medical Professionals</div>
+    </div>
+    <div class="spec-modal-body">
+      <span class="spec-display-num" id="modalNum">01</span>
+      <h3 id="modalTitle">Specialty</h3>
+      <p id="modalDesc">Specialised multispeciality care supported by experienced medical professionals and advanced healthcare facilities.</p>
+      <a class="spec-cta" id="modalCta" href="#appointment">Book Appointment →</a>
+    </div>
+  </div>
+</div>
+
+<section class="quick"><a href="#appointment">▣ <span><b>Book Appointment</b><small>Choose doctor & time</small></span>→</a><a href="#doctors">♙ <span><b>Find a Doctor</b><small>Meet our specialists</small></span>→</a><a href="#specialties">✚ <span><b>Our Specialties</b><small>Expert care across departments</small></span>→</a><a href="#contact">☎ <span><b>Emergency</b><small>24/7 support team</small></span>→</a></section>
+<section class="doctors" id="doctors">
+  <div class="doc-ambient">
+    <div class="doc-blob doc-blob-1"></div>
+    <div class="doc-blob doc-blob-2"></div>
+  </div>
+  <div class="spec-intro doc-intro">
+    <p class="eyebrow spec-eyebrow">OUR EXPERT DOCTORS</p>
+    <h2>Meet the Experts<br><span>Behind Your Care.</span></h2>
+    <p class="spec-intro-text">Experienced medical professionals providing specialised care across our comprehensive range of departments. Select a doctor to learn more.</p>
+  </div>
+
+  <div class="doc-grid" id="docGrid"></div>
+
+  <div class="spec-trust doc-trust">
+    <span><b>Experienced</b> Medical Professionals</span>
+    <span><b>Specialised</b> Department Care</span>
+    <span><b>Patient-First</b> Approach</span>
+    <span><b>Comprehensive</b> Range of Specialties</span>
+  </div>
+</section>
+
+<div class="doc-modal" id="docModal" role="dialog" aria-modal="true" hidden>
+  <div class="doc-modal-backdrop" data-close></div>
+  <div class="doc-modal-card">
+    <button class="doc-modal-close" data-close aria-label="Close">×</button>
+    <div class="doc-modal-visual">
+      <div class="doc-modal-icon" id="docModalIcon"></div>
+      <img id="docModalImg" src="" alt="">
+      <div class="spec-overlay"><span>◆</span> Samridhi Specialist</div>
+    </div>
+    <div class="doc-modal-body">
+      <span class="spec-display-num" id="docModalNum">01</span>
+      <span class="doc-modal-dept" id="docModalDept">DEPARTMENT</span>
+      <h3 id="docModalName">Doctor</h3>
+      <p class="doc-modal-qual" id="docModalQual"></p>
+      <div class="doc-modal-divider"></div>
+      <span class="doc-modal-specialist">Specialist</span>
+      <a class="spec-cta" href="#appointment">Book Appointment →</a>
+    </div>
+  </div>
+</div>
+<section class="diag" id="diagnostics">
+  <div class="spec-intro diag-intro">
+    <p class="eyebrow spec-eyebrow">OUR DIAGNOSTICS</p>
+    <h2>Advanced diagnostics for<br><span>accurate care.</span></h2>
+    <p class="spec-intro-text">State-of-the-art diagnostic equipment operated by experienced technicians for precise and timely results.</p>
+  </div>
+  <div class="diag-grid" id="diagGrid"></div>
+  <div class="spec-trust diag-trust">
+    <span><b>24/7</b> Lab Services</span>
+    <span><b>Advanced</b> Equipment</span>
+    <span><b>Quick</b> Results</span>
+    <span><b>Accurate</b> Diagnosis</span>
+  </div>
+</section>
+
+<div class="diag-modal" id="diagModal" role="dialog" aria-modal="true" hidden>
+  <div class="diag-modal-backdrop" data-close></div>
+  <div class="diag-modal-card">
+    <button class="diag-modal-close" data-close aria-label="Close">×</button>
+    <div class="diag-modal-visual">
+      <div class="diag-modal-icon" id="diagModalIcon"></div>
+      <img id="diagModalImg" src="" alt="">
+      <div class="spec-overlay"><span>◆</span> Advanced Diagnostics</div>
+    </div>
+    <div class="diag-modal-body">
+      <span class="spec-display-num" id="diagModalNum">01</span>
+      <h3 id="diagModalName">Service</h3>
+      <p id="diagModalDesc">Detailed diagnostic information.</p>
+      <a class="spec-cta" href="#appointment">Book Test →</a>
+    </div>
+  </div>
+</div>
+<section class="facilities" id="facilities">
+  <div class="fac-ambient">
+    <div class="fac-blob fac-blob-1"></div>
+    <div class="fac-blob fac-blob-2"></div>
+  </div>
+  <div class="spec-intro fac-intro">
+    <p class="eyebrow spec-eyebrow">FACILITIES & SUPPORT</p>
+    <h2>Everything You Need.<br><span>All Under One Roof.</span></h2>
+    <p class="spec-intro-text">Comprehensive support services designed to make every step of your healthcare journey more seamless. Select a facility to learn more.</p>
+  </div>
+
+  <div class="fac-grid" id="facGrid"></div>
+
+  <div class="spec-trust fac-trust">
+    <span><b>24×7</b> Emergency Support</span>
+    <span><b>Ambulance</b> Services</span>
+    <span><b>In-House</b> Pharmacy</span>
+    <span><b>Home Care</b> Available</span>
+  </div>
+</section>
+
+<div class="fac-modal" id="facModal" role="dialog" aria-modal="true" hidden>
+  <div class="fac-modal-backdrop" data-close></div>
+  <div class="fac-modal-card">
+    <button class="fac-modal-close" data-close aria-label="Close">×</button>
+    <div class="fac-modal-visual">
+      <div class="fac-modal-icon" id="facModalIcon"></div>
+      <img id="facModalImg" src="" alt="">
+      <div class="spec-overlay"><span>◆</span> Samridhi Support</div>
+    </div>
+    <div class="fac-modal-body">
+      <span class="spec-display-num" id="facModalNum">01</span>
+      <h3 id="facModalName">Facility</h3>
+      <p id="facModalDesc">Facility description.</p>
+      <a class="spec-cta" href="tel:+917478066817">Contact Emergency Services →</a>
+    </div>
+  </div>
+</div>
+<section class="section appointment" id="appointment"><div><p class="eyebrow teal">MAKE AN APPOINTMENT</p><h2>Taking care of your health starts with one simple step.</h2><p>Send us your details and our team will help you with an appointment request.</p><h3>☎ +91 74780 66817</h3><h3>✉ info@samridhihospital.com</h3></div><form id="form"><input required placeholder="Full Name"><input required placeholder="Phone Number"><select required><option value="">Select Department</option><option>Medicine & Critical Care</option><option>Pulmonology</option><option>Neuro Surgery</option><option>General Surgery</option><option>ENT</option><option>Plastic & Reconstructive Surgery</option><option>Nephrology</option><option>Urology</option><option>Cardiology</option><option>Dermatology</option><option>Orthopaedics</option><option>Gastroenterology</option><option>Obstetrics & Gynaecology</option><option>Psychiatry</option><option>Oral & Maxillofacial Surgery</option><option>Oncology</option><option>Paediatrics</option><option>Dentistry</option></select><input type="date" required><textarea placeholder="Tell us how we can help"></textarea><button>Request Appointment →</button><p id="message"></p></form></section>
+<section class="test section"><p class="eyebrow teal">PATIENT STORIES</p><h2>Care people remember.</h2><div class="testgrid"><article>“<p>The doctors took time to explain everything clearly. I felt supported throughout my visit.</p><b>— Ananya S.</b></article><article>“<p>A professional team and a genuinely compassionate experience from start to finish.</p><b>— Rahul K.</b></article><article>“<p>Our family has trusted the team for years. The personal attention makes all the difference.</p><b>— Pooja M.</b></article></div></section>
+<section class="cta">NEED HELP NOW?<h2>Our team is here for you, 24/7.</h2><a href="tel:+918016048838">Call Emergency Support →</a></section>
+</main>
+<footer id="contact"><div><a class="logo"><img src="Samridhi_logo.jpeg" alt="Samridhi Hospital Logo" style="width:48px;height:48px;border-radius:50%;object-fit:cover"><span>Samridhi <i>Multi</i><small>Speciality Hospital</small></span></a><p>Compassionate healthcare, modern medicine and people who care.</p></div><div><b>QUICK LINKS</b><a href="#home">🏠 Home</a><a href="#about">ℹ️ About</a><a href="#specialties">🩺 Specialties</a><a href="#doctors">👨‍⚕️ Doctors</a><a href="#diagnostics">🔬 Diagnostics</a><a href="#facilities">🏥 Facilities</a><a href="#contact">📞 Contact</a></div><div><b>CONTACT</b><p>+91 74780 66817</p><p>info@samridhihospital.com</p><p>Your City, India</p></div><small>© 2026 Samridhi Multi Speciality Hospital. All rights reserved.</small><small>Designed & Developed by <a href="https://www.windforcedigital.com" target="_blank" style="color:#00b894;font-weight:600">Windforce Digital</a></small></footer>
+<div id="toast"></div><script src="script.js"></script></body></html>
